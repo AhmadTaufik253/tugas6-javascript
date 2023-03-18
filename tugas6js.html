@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tugas 6 Javascript</title>
+  </head>
+  <body>
+    <div id="content">
+      <article class="card" id="artikel">
+        <h1>Tugas 6 Javascript</h1>
+        <div class="image">
+          <div class="menu-item" id="gambar1">
+            <img src="img/hotel-wallpaper-black.png" alt="gambar1" class="gambar1" />
+            <h3>Gambar 1</h3>
+          </div>
+          <div class="menu-item" id="gambar2">
+            <img src="img/moroccan-flower-dark.png" alt="gambar2" class="gambar2" />
+            <h3>Gambar 2</h3>
+          </div>
+          <div class="menu-item" id="gambar3">
+            <img src="img/oriental-tiles.png" alt="gambar3" class="gambar3" />
+            <h3>Gambar 3</h3>
+          </div>
+          <div class="menu-item" id="gambar4">
+            <img src="img/wheat.png" alt="gambar4" class="gambar4" />
+            <h3>Gambar 4</h3>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- script -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".gambar1").click(function () {
+          $("#gambar1").hide(1200);
+        });
+        $(".gambar2").click(function () {
+          $("#gambar2").hide(1200);
+        });
+        $(".gambar3").click(function () {
+          $("#gambar3").hide(1200);
+        });
+        $(".gambar4").click(function () {
+          $("#gambar4").hide(1200);
+        });
+      });
+    </script>
+
+    <!-- image -->
+    <!-- <div class="image">
+      <figure id="fig" class="gambar1">
+        <img src="img/webb.png" alt="" class="img1" id="img1" />
+        <figcaption>gambar 1</figcaption>
+      </figure>
+      <figure id="fig" class="gambar2">
+        <img src="img/double-bubble-outline.png" alt="" class="img2" id="img1" />
+        <figcaption>gambar 2</figcaption>
+      </figure>
+      <figure id="fig" class="gambar3">
+        <img src="img/more-leaves.png" alt="" class="img3" id="img1" />
+        <figcaption>gambar 3</figcaption>
+      </figure>
+      <figure id="fig" class="gambar4">
+        <img src="img/moroccan-flower.png" alt="" class="img4" id="img1" />
+        <figcaption>gambar 4</figcaption>
+      </figure>
+    </div> -->
+  </body>
+</html>
